@@ -5,10 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;400&family=Kalam:wght@300;400;700&family=Lato:ital,wght@1,900&family=Philosopher:wght@400;700&family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Kalam:wght@300;400;700&family=Lato:ital,wght@1,900&family=Monoton&family=Philosopher:wght@400;700&family=Poppins:wght@400;700&display=swap');
 :root {
-  --success: #50C462;
-  --alert: #FF564E;
-  --fondo: #60C4F5;
-  --fondo-cards: #C999FD;
+  --success-alert: #50C462;
+  --error-alert: #FF564E;
+  --main-background: #60C4F5;
+  --background-cards: #C999FD;
   --title: #062050;
-  --text-general: "Philosopher", sans-serif;
+  --general-text: "Philosopher", sans-serif;
 }
