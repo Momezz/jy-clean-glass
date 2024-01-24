@@ -1,3 +1,5 @@
+import '../../public/css/normalize.css';
+import '../../public/css/variables.css';
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
