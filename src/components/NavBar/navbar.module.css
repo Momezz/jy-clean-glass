@@ -1,0 +1,153 @@
+.navigation__container {
+  background-color: var(--main-background);
+  position: fixed;
+  z-index: 1000;
+  padding: 10px;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+}
+
+.navigation__navlink_logo {
+  text-decoration: none;
+}
+
+.navigation__container_none {
+  display: none;
+}
+
+.navigation__icon {
+  transform: rotate(90deg);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  right: 1.5rem;
+  height: 50px;
+  top: 1.5rem;
+  width: 45px;
+}
+
+.navigation__button {
+  background-color: var(--background-cards);
+  color: var(--title);
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 25px;
+  display: flex;
+  border: none;
+  height: 50px;
+  width: 50px;
+}
+
+.navigation__icon_none {
+  display: none;
+}
+
+.navigation__ul_nav {
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-top: 50px;
+  list-style: none;
+  display: flex;
+}
+
+.navigation__cont_logo {
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  margin-top: 20px;
+  display: flex;
+  height: 130px;
+  width: 140px;
+}
+
+.card__image {
+  border-radius: 50%;
+}
+
+.navigation__li_nav {
+  transition: transform 0.5s ease;
+  font-weight: bold;
+  margin-left: 23px;
+  font-size: 17px;
+}
+
+.navigation__li_nav:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.navigation__navlink {
+  color: var(--title);
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.navigation__navlink:focus {
+  border-bottom: 2px solid var(--title);
+}
+
+.navigation__logo {
+  color: var(--title);
+  font-weight: bolder;
+  font-size: 90px;
+  display: block;
+}
+
+.navigation__title {
+  color: var(--title);
+  line-height: 23px;
+  flex-basis: 40px;
+  font-weight: 300;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .navigation__ul_nav {
+    flex-direction: row;
+  }
+
+  .navigation__container {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    height: 120px;
+    padding: 35px;
+    width: 100%;
+  }
+
+  .navigation__nav {
+    justify-content: center;
+    margin-bottom: 25px;
+    align-items: center;
+    display: flex;
+    height: 100%;
+  }
+
+  .navigation__cont_logo {
+    width: 110px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navigation__icon {
+    display: none;
+  }
+
+  .navigation__icon_none {
+    position: absolute;
+    right: 1.5rem;
+    height: 40px;
+    width: 40px;
+    top: 1.5rem;
+  }
+
+  .navigation__container_none {
+    display: flex;
+  }
+}
