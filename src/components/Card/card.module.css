@@ -1,0 +1,58 @@
+.card__container {
+  box-shadow: 0 4px 6px var(--highlight-color);
+  transition: transform 0.3s;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  height: 250px;
+  width: 370px;
+}
+
+.card__container:hover {
+  background: linear-gradient(90deg, transparent, #fff, transparent);
+}
+
+.card__title {
+  font-family: var(--general-text);
+  color: var(--highlight-color);
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.card__skill_type_cont {
+  width: 70%;
+}
+
+.card__skill_type_paragraph {
+  font-family: var(--general-text);
+  color: var(--text);
+  font-size: 20px;
+}
+
+.card__price {
+  color: var(--highlight-color);
+  position: absolute;
+  font-size: 20px;
+  bottom: 10px;
+}
+
+
+.card__image_cont {
+  border: 3px solid var(--highlight-color);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 170px;
+  bottom: -30px;
+  display: flex;
+  width: 170px;
+  right: -30px;
+}
+
+.card__image {
+  z-index: -100;
+  width: 100%;
+}
