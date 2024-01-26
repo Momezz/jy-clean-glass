@@ -1,0 +1,21 @@
+.banner__container {
+  box-shadow: 0 4px 6px var(--text);
+  margin-top: 150px;
+  min-height: 300px;
+  padding: 20px;
+  width: 90%;
+}
+
+.banner__title {
+  font-family: var(--tile-text);
+  color: var(--title);
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.banner__text {
+  margin-left: 20px;
+  color: var(--text);
+  font-weight: 400;
+  font-size: 23px;
+ }
