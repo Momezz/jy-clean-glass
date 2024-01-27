@@ -1,5 +1,6 @@
 import Banner from '../components/Banner/Banner';
 import Card from '../components/Card/Card';
+import SeeDetail from '../components/SeeDetail/SeeDetail';
 
 export default function Home() {
   const elements = {
@@ -17,6 +18,9 @@ export default function Home() {
         <Banner />
         <article>
           <Card element={elements} />
+        </article>
+        <article>
+          <SeeDetail element={elements}/>
         </article>
       </article>
     </main>
