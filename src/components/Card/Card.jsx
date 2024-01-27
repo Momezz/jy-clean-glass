@@ -1,5 +1,5 @@
 import styles from '../Card/card.module.css';
-import { formatPrice } from '../../services/utilities'
+import { formatPrice, limitCharacters } from '../../services/utilities';
 import PropTypes from 'prop-types';
 import Image from 'next/image';
 
@@ -9,7 +9,7 @@ const Card = ({ element }) => {
       <h2 className={styles.card__title}>{element.title}</h2>
       <div className={styles.card__skill_type_cont}>
         <p className={styles.card__skill_type_paragraph}>
-          {element.description}
+          {limitCharacters(element.description, 80)}
         </p>
       </div>
       <span className={styles.card__price}>{formatPrice(element.price)}</span>
