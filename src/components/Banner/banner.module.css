@@ -7,7 +7,7 @@
 }
 
 .banner__title {
-  font-family: var(--tile-text);
+  font-family: var(--title-text);
   color: var(--title);
   font-weight: 700;
   font-size: 50px;
