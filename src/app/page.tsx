@@ -1,5 +1,5 @@
 import Banner from '../components/Banner/Banner';
-import Card from '../components/Card/Card';
+import CardsLayout from '../components/CardsLayout/CardsLayout';
 import SeeDetail from '../components/SeeDetail/SeeDetail';
 import ContactForm from '../components/ContactForm/ContactForm'
 
@@ -18,7 +18,7 @@ export default function Home() {
       <article className="w-full grid place-items-center">
         <Banner />
         <article>
-          <Card element={elements} />
+          <CardsLayout />
         </article>
         <article>
           <SeeDetail element={elements}/>
