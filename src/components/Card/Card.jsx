@@ -18,7 +18,7 @@ const Card = ({ element }) => {
           <Image
             className={styles.card__image}
             src={element.image}
-            alt={element.title}
+            alt={element.name}
             width={110}
             height={120}
             priority

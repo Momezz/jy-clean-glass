@@ -7,7 +7,7 @@ export const formatPrice = (price) => {
 
 
 export const limitCharacters = (text, limit) => {
-  if (text.length > limit) {
+  if (text && text.length > limit) {
     return text.slice(0, limit) + '...';
   } else {
     return text;

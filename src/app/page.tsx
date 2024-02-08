@@ -1,5 +1,5 @@
 import Banner from '../components/Banner/Banner';
-import Card from '../components/Card/Card';
+import CardsLayout from '../components/CardsLayout/CardsLayout';
 import SeeDetail from '../components/SeeDetail/SeeDetail';
 import ContactForm from '../components/ContactForm/ContactForm'
 
@@ -11,14 +11,14 @@ export default function Home() {
     contenido: "1000 ml",
     description:
       "aseder lorem insupt aseder lorem insupt aseder lorem insupt aseder",
-    price: 16000
+    price: 20000
   };
   return (
     <main className="flex">
       <article className="w-full grid place-items-center">
         <Banner />
         <article>
-          <Card element={elements} />
+          <CardsLayout />
         </article>
         <article>
           <SeeDetail element={elements}/>
