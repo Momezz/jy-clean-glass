@@ -11,7 +11,7 @@ export default function Home() {
     contenido: "1000 ml",
     description:
       "aseder lorem insupt aseder lorem insupt aseder lorem insupt aseder",
-    price: 16000
+    price: 20000
   };
   return (
     <main className="flex">
