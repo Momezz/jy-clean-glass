@@ -1,27 +1,14 @@
 import Banner from '../components/Banner/Banner';
 import CardsLayout from '../components/CardsLayout/CardsLayout';
-import SeeDetail from '../components/SeeDetail/SeeDetail';
 import ContactForm from '../components/ContactForm/ContactForm'
 
 export default function Home() {
-  const elements = {
-    image:
-      "https://res.cloudinary.com/dgouwu7h7/image/upload/v1701025063/portfolio/b82394ee3a3c3ae0776afa340d59e319.png",
-    title: "shampoo",
-    contenido: "1000 ml",
-    description:
-      "aseder lorem insupt aseder lorem insupt aseder lorem insupt aseder",
-    price: 20000
-  };
   return (
     <main className="flex">
       <article className="w-full grid place-items-center">
         <Banner />
         <article>
           <CardsLayout />
-        </article>
-        <article>
-          <SeeDetail element={elements}/>
         </article>
         <article>
           <ContactForm />
