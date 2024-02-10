@@ -3,14 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@1,400;1,700&family=Tourney:ital,wght@1,100&display=swap');
 
 :root {
-  --highlight-color: #6C6DEB;
-  --success-alert: #50C462;
-  --error-alert: #FF564E;
-  --main-background: #60C4F5;
   --background-cards: #C999FD;
-  --title: #062050;
+  --error-alert: #FF564E;
+  --highlight-color: #6C6DEB;
+  --main-background: #60C4F5;
+  --success-alert: #50C462;
   --text: #547FB5;
+  --title: #062050;
+  --whatsapp-button: #008000;
 
-  --title-text: "Expletus Sans", sans-serif;
   --general-text: "Philosopher", sans-serif;
+  --title-text: "Expletus Sans", sans-serif;
 }
