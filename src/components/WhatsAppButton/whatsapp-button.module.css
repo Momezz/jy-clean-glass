@@ -1,0 +1,11 @@
+.whatsapp_button__container {
+  background-color: var(--whatsapp-button);
+  border-radius: 30px;
+}
+
+.whatsapp_button__icon {
+  color: var(--main-background);
+  font-size: 50px;
+  height: 100%;
+  width: 100%;
+}
