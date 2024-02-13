@@ -6,6 +6,8 @@
   overflow: hidden;
   padding: 20px;
   width: 90%;
+  margin: 0 auto;
+  margin-top: 90px;
 }
 
 .see_details__image_cont {
@@ -18,7 +20,9 @@
 
 .see_details__image {
   border: 3px solid var(--highlight-color);
+  object-position: center;
   border-radius: 15px;
+  object-fit: cover;
   max-width: 400px;
   z-index: -100;
   width: 100%;
@@ -53,7 +57,9 @@
 
 @media(min-width: 768px) {
   .see_details__container {
+    margin-top: 150px;
     display: flex;
+    height: 500px;
   }
 
   .see_details__cont_text {

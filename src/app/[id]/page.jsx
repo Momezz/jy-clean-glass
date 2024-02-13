@@ -1,9 +1,12 @@
-import styles from '@/components/SeeDetail/see-detail.module.css';
-import { formatPrice } from '../../services/utilities'
-import PropTypes from 'prop-types';
+import styles from '../[id]/id.module.css';
 import Image from 'next/image';
+import { formatPrice } from '@/services/utilities';
+import { getProductsById } from '@/services/products';
 
-const SeeDetail = ({ element }) => {
+const SeeDetails = async ({ params }) => {
+  const { id } = params;
+  const element = await getProductsById(id);
+
   return (
     <article className={styles.see_details__container}>
       <div className={styles.see_details__image_cont}>
@@ -18,7 +21,7 @@ const SeeDetail = ({ element }) => {
           />}
       </div>
       <div className={styles.see_details__cont_text}>
-        <h2 className={styles.see_details__title}>{element.title}</h2>
+        <h2 className={styles.see_details__title}>{element.name}</h2>
         <p className={styles.see_details___paragraph}>
           {element.description}
         </p>
@@ -28,8 +31,4 @@ const SeeDetail = ({ element }) => {
   );
 };
 
-SeeDetail.propTypes = {
-  element: PropTypes.objectOf(PropTypes.objectOf).isRequired,
-};
-
-export default SeeDetail;
+export default SeeDetails;
