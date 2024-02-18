@@ -11,10 +11,10 @@ export default function Home() {
         <article>
           <CardsLayout />
         </article>
-        <article>
+        <article className="w-full grid place-items-center">
           <ContactForm />
         </article>
-        <div >
+        <div className="fixed bottom-4 right-4 p-3">
           <WhatsAppButton />
         </div>
       </article>
