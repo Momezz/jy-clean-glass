@@ -2,6 +2,7 @@ import styles from '../[id]/id.module.css';
 import Image from 'next/image';
 import { formatPrice } from '@/services/utilities';
 import { getProductsById } from '@/services/products';
+import BackButton from '@/components/BackButton/BackButton';
 
 const SeeDetails = async ({ params }) => {
   const { id } = params;
@@ -9,6 +10,7 @@ const SeeDetails = async ({ params }) => {
 
   return (
     <article className={styles.see_details__container}>
+      <BackButton />
       <div className={styles.see_details__image_cont}>
         {
           <Image
