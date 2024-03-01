@@ -1,0 +1,33 @@
+.administrator_portal__container {
+  border: 2px solid var(--highlight-color);
+  flex-direction: column;
+  max-width: 768px;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.administrator_portal__button_cont {
+  justify-content: space-around;
+  display: flex;
+}
+
+.administrator_portal__button {
+  transition: transform 0.3s ease-in-out;
+  color: var(--highlight-color);
+  font-weight: 700;
+  margin: 10px;
+  width: 200px;
+  height: 45px;
+  float: right;
+}
+
+.administrator_portal__button:hover {
+  border: 2px solid var(--highlight-color);
+  transform: scale(1.1);
+}
+
+.administrator_portal__button_left {
+  background-color: var(--highlight-color);
+  color: var(--main-background);
+}
