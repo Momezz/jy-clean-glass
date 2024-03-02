@@ -24,7 +24,7 @@ const AdministratorPortal = () => {
             >
               No
             </button>
-            <Link href="/">
+            <Link href="/login">
               <button
                 className={`${styles.administrator_portal__button} ${styles.administrator_portal__button_left}`}
                 type="button"
