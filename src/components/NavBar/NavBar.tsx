@@ -49,7 +49,7 @@ const Navigation = () => {
         </Link>
         <nav className={styles.navigation__nav}>
           <ul className={styles.navigation__ul_nav}>
-            <li className={styles.navigation__navlink}>
+            <li onClick={handleToggle} className={styles.navigation__navlink}>
               <AdministratorPortal />
             </li>
             <li className={styles.navigation__li_nav}>
