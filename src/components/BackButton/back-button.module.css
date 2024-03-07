@@ -1,0 +1,11 @@
+.back_button__continer {
+  color: var(--highlight-color);
+  font-size: 25px;
+ }
+
+@media
+(min-width: 768px) {
+  .back_button__continer {
+    font-size: 30px;
+  }
+}
