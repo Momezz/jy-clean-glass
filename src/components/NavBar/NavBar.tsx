@@ -65,7 +65,7 @@ const Navigation = () => {
               <Link
                 onClick={handleToggle}
                 className={styles.navigation__navlink}
-                href="/"
+                href="/#contact"
               >
                 Contacto
               </Link>
