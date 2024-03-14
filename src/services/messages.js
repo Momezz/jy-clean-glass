@@ -3,7 +3,7 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 export const sendMail = async (values) => {
   let message = false;
   try {
-    const response = await fetch(`${BASE_URL}send-mail`, {
+    const response = await fetch(`${BASE_URL}/api/send-mail`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
