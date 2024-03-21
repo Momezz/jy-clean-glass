@@ -29,21 +29,10 @@ const ContactForm = () => {
     },
     validationSchema,
     onSubmit: async (values) => {
-      if (values) {
-        setLoading(true)
-        setTimeout(() => {
-          setLoading(false)
-          setIsFormSubmitted(true);
-        }, 2000);
-      }
       try {
-        const res = await sendMail(values);
+        await sendMail(values);
       } catch (error) {
-        setLoading(true)
-        setTimeout(() => {
-          setLoading(false)
-          setIsFormSubmitted(false);
-        }, 2000);
+        console.error(error);
       }
     },
   });

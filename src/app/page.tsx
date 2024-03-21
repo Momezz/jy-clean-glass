@@ -11,7 +11,7 @@ export default function Home() {
         <article>
           <CardsLayout />
         </article>
-        <article className="w-full grid place-items-center">
+        <article id="contact" className="w-full grid place-items-center">
           <ContactForm />
         </article>
         <div className="fixed bottom-4 right-4 p-3">
