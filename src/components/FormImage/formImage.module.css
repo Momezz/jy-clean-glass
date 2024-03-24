@@ -1,0 +1,89 @@
+.form_img__container {
+  box-shadow: 0 4px 6px var(--highlight-color);
+  font-family: var(--general-text);
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  max-width: 1000px;
+  overflow: hidden;
+  display: flex;
+  width: 360px;
+}
+
+.form__img_form {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 90%;
+}
+
+.form__img_title {
+  color: var(--highlight-color);
+  margin: 5px;
+  text-align: center;
+  font-size: 22px;
+  height: 30px;
+  width: 100%;
+}
+
+.form__img_file {
+  border-style: solid;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 25px;
+  overflow: hidden;
+  display: flex;
+}
+
+.form__img_file [type=file] {
+  text-align: right;
+  cursor: pointer;
+  display: block;
+  height: 120px;
+  width: 120px;
+  opacity: 0;
+}
+
+.form__img_editable_image {
+  box-shadow: 0 4px 6px var(--highlight-color);
+  border: 3px solid var(--highlight-color);
+  border-radius: 50%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  top: 0;
+}
+
+.form__img_btn {
+  border: 2px solid var(--highlight-color);
+  transition: transform 0.3s ease-in-out;
+  color: var(--highlight-color);
+  font-weight: 700;
+  font-size: 22PX;
+  margin: 22px;
+  width: 220px;
+  height: 45px;
+  float: right;
+}
+
+.form__img_btn:hover {
+  transform: scale(1.1);
+}
+
+.form__img_preview_container {
+  border: 2px solid var(--highlight-color);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  width: 90%;
+}
+
+.form__img_preview {
+  border-radius: 50%;
+  height: 50%;
+  width: 50%;
+}

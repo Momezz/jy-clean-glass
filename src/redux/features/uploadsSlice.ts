@@ -4,7 +4,7 @@ interface FileWithMeta extends File {
   name: string;
 }
 
-const BASE_URL = process.env.REACT_APP_BASE_URL;
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 const initialState = {
   uploads: '',
 };
